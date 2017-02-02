@@ -1,20 +1,56 @@
 
-h1 
+h1 {
+  color: green;
+font-weight: bold;
+text-align: center;
+}
+
+
+td, th 
+
 {
-color: green;
-  text-align: center;
+  border: 2px solid black;
 }
 
 
 
-table
-{
-  text-align: center;
+table {
+
   border-collapse: collapse;
-  width:650px; 
-  border:10px;
-  align:center;
+  width: 650px;
+  margin: auto;
+ font-family: Verdana;
 }
 
 
+th {
+  height: 30px;
+  width:20%;
+  background-color:yellow;
+}
+
+
+
+td
+{
   
+text-align: center;
+border-style: dotted;
+border-color: blue;
+  
+}
+
+
+.blue
+{
+  
+color: blue;
+  
+}
+
+
+.red 
+
+{
+color: red;
+}
